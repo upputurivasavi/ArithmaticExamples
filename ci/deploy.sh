@@ -7,7 +7,7 @@ JAR_LOCATION=/home/travis/build/upputurivasavi/ArithmaticExamples/target
 CLASS_NAME="com.examples.MathsExample"
 
 if [ ${env} = "dev" ] || [ ${env} = "staging" ] || [ ${env} = "prod" ]; then 
-    java -cp ${JAR_LOCATION}/${JAR_NAME} ${CLASS_NAME} upputuri vasavi
+    java -cp ${JAR_LOCATION}/${JAR_NAME} ${CLASS_NAME} 5 7
 else 
     echo "Invalid Environment"
     exit 1
