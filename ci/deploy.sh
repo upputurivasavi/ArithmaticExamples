@@ -2,8 +2,8 @@
 
 export env=$1
 export version=$2
-JAR_NAME=ArithmaticExample-${version}.jar
-JAR_LOCATION=/home/travis/build/upputurivasavi/ArithmaticExample/target
+JAR_NAME=ArithmaticExamples-${version}.jar
+JAR_LOCATION=/home/travis/build/upputurivasavi/ArithmaticExamples/target
 CLASS_NAME="com.examples.MathsExample"
 
 if [ ${env} = "dev" ] || [ ${env} = "staging" ] || [ ${env} = "prod" ]; then 
